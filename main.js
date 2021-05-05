@@ -19,6 +19,7 @@ const targetNum = Math.floor(Math.random() * maxNum ) + 1;
 let guess = parseInt(prompt("Enter your first guess!"));
 
 while(guess !== targetNum) {
+    attempts++
     if(guess > targetNum) {
         guess = parseInt(prompt("Too High! Enter a new guess:"))
     } else {
@@ -27,7 +28,7 @@ while(guess !== targetNum) {
 }
 
 
-anwser.innerHTML = `You got it! it took you ${attempts} attempts`
+anwser.innerHTML = `You got it! it took you <span style="color:#f28b82">${attempts}</span> attempts`
 button.appendChild(reStartButton)
 
 // Restart Game -- Reload Page
