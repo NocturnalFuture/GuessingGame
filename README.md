@@ -1,4 +1,4 @@
-# 〰️ Guessing Game 〰️
+# Guessing Game 
 ## Instructions
 Set a max number and try your luck by guessing the number within the range. Watch out for hints 💡 to see how close you are! 
 
@@ -8,5 +8,7 @@ Set a max number and try your luck by guessing the number within the range. Watc
 - DOM Manipulation
 - While Loop
 - Event Listener
+
+---
 
 ### <a href="#"> Try it out </a>
