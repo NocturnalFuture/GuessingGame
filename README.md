@@ -11,4 +11,4 @@ Set a max number and try your luck by guessing the number within the range. Watc
 
 ---
 
-### <a href="#"> Try it out </a>
+### <a href="https://nocturnalfuture.github.io/GuessingGame/"> Try it out </a>
